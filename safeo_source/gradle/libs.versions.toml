@@ -1,0 +1,47 @@
+[versions]
+agp = "8.7.2"
+kotlin = "2.1.0"
+googleServices = "4.4.2"
+coreKtx = "1.15.0"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+playServicesLocation = "21.3.0"
+camera = "1.4.2"
+generativeai = "0.9.0"
+coroutines = "1.9.0"
+lifecycleRuntimeKtx = "2.8.7"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+firebaseBom = "33.12.0"
+
+[libraries]
+androidxCoreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidxAppcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidxActivity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+androidxConstraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebaseBom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebaseAnalytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebaseDatabase = { group = "com.google.firebase", name = "firebase-database" }
+firebaseStorage = { group = "com.google.firebase", name = "firebase-storage" }
+firebaseAuth = { group = "com.google.firebase", name = "firebase-auth" }
+playServicesLocation = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+androidxCameraCore = { group = "androidx.camera", name = "camera-core", version.ref = "camera" }
+androidxCameraCamera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camera" }
+androidxCameraLifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camera" }
+androidxCameraView = { group = "androidx.camera", name = "camera-view", version.ref = "camera" }
+androidxCameraVideo = { group = "androidx.camera", name = "camera-video", version.ref = "camera" }
+generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeai" }
+kotlinxCoroutinesAndroid = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+androidxLifecycleRuntimeKtx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidxJunit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidxEspressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleServices" }

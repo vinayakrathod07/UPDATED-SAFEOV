@@ -1,0 +1,7 @@
+{
+  "name": "SafeOV Elite",
+  "description": "SafeOV Elite - Advanced AI safety companion and emergency response system featuring SOS instant dispatch, live evidence recording, accident crash detection, and intelligent voice guidance.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
